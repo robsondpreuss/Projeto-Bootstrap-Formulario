@@ -1,5 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
 input[type="text"]:focus,
 input[type="number"]:focus {
     border-color: #F0680A;
     box-shadow: 0 0 0 0.2rem #f06a0a63;
 }
+
+form {
+    margin-top: 90px;
+}
+
+
+.bg-light {
+    background-color: #003475 !important;
+}
+
+.nav-link {
+    
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.nav-link:hover {
+    color: #FC835E !important;
+}
+
+.navbar-nav {
+    margin-left: 74.4px;
+    gap: 10px 55px;
+}
+
+.navbar-toggler {
+    border: 1px solid #FC835E;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    border: 1px solid #FAFAFA;
+    box-shadow: unset;
+}
+
